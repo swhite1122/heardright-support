@@ -16,22 +16,26 @@
   <p class="lede">The short version: your voice and your words stay on your phone. We can't see them, and we didn't build a way to.</p>
 
   <h2>What the app collects</h2>
-  <p>Nothing. HeardRight has no accounts, no sign-in, no analytics, no ads, and no tracking of any kind. We do not collect, store, or transmit your recordings, your transcripts, your dictionary, or anything about how you use the app.</p>
+  <p>Nothing. HeardRight has no accounts, no sign-in, no analytics, no ads, and no tracking of any kind. We do not collect, store, or transmit your recordings, your text, your dictionary, or anything about how you use the app.</p>
 
   <h2>Your voice</h2>
-  <p>The microphone records only during a dictation session you started, and the app shows you when it's listening. Every session also stops on its own after a time limit you can see in the app, so the microphone can't run forever. The audio is written to the app's own storage on your phone, transcribed right there by a speech model running on the device, and the audio file is deleted once your text is ready. Audio never leaves the phone.</p>
+  <p>iOS doesn't let a keyboard use the microphone, so the HeardRight app does the recording. Your speech is turned into text by a model running on your phone. The audio is held in memory while that happens and is not saved as a file. It never leaves the phone.</p>
+  <p>After a dictation the app stays ready for a window you choose in Settings: 2, 5, 10 or 15 minutes. That lets your next dictation start from the keyboard without opening the app again. While it's ready, the microphone is on and the orange dot shows. HeardRight throws that audio away until you tap Dictate. A single dictation stops on its own after three minutes at most.</p>
+
+  <h2>Your history</h2>
+  <p>The text of your dictations is saved in the app, on your phone, so you can copy one again later. It is not kept in the storage the keyboard can read, and it is left out of your iPhone backup. You can delete any entry, delete all of it, or turn history off in Settings.</p>
 
   <h2>Your dictionary</h2>
-  <p>The words you teach HeardRight are stored on your phone, in storage that only the app and its keyboard can read. They're applied to your text on the device and never uploaded anywhere.</p>
+  <p>The words you add are stored in the app on your phone and are left out of your iPhone backup. They're applied to your text on the device and never uploaded anywhere.</p>
 
   <h2>The keyboard and Full Access</h2>
-  <p>Full Access lets the keyboard read the finished text from the shared storage it splits with the main app. That's the whole reason it's needed. The keyboard makes no network connections and sends nothing off the device.</p>
+  <p>The keyboard and the app share a small piece of storage on your phone. The keyboard uses it to ask the app for a dictation and to pick up the finished text, and Full Access is what lets it do that. The keyboard makes no network connections and sends nothing off the device. Without Full Access it still types; only dictation is unavailable.</p>
 
   <h2>The one time the app touches the network</h2>
-  <p>When you choose to download a speech model, the app fetches that file from Hugging Face, the site that hosts them. Like any download, that request shows the hosting server standard connection information such as your IP address. No personal data, audio, or text goes with it, and after the download, dictation works with no connection at all.</p>
+  <p>When you choose to download a speech model or the cleanup model, the app fetches that file from Hugging Face, the site that hosts them. Like any download, that request shows the hosting server standard connection information such as your IP address. No personal data, audio, or text goes with it, and after the download, dictation works with no connection at all.</p>
 
   <h2>Purchases</h2>
-  <p>The one-time unlock is handled entirely by Apple through the App Store. We never see your payment details.</p>
+  <p>The free trial and the one-time unlock are handled entirely by Apple through the App Store. We never see your payment details.</p>
 
   <h2>Children</h2>
   <p>HeardRight doesn't collect data from anyone, children included, and has no features directed at children.</p>
@@ -47,7 +51,7 @@
       <a href="index.html">Home</a>
       <a href="support.html">Support</a>
     </nav>
-    <p>Effective date: August 11, 2026.</p>
+    <p>Effective date: October 9, 2026.</p>
   </footer>
 </main>
 </body>
